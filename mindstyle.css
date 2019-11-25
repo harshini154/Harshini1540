@@ -110,7 +110,6 @@ mobilenav{
       height: 42vw;
       width: 42.5vw;
       margin-left: 3.5vw;
-      background-color: white;
   }
 
   .image img{
@@ -316,7 +315,6 @@ ul li ul li:hover {background: rgb(0, 129, 138);}
   height: 88vw;
   width: 88vw;
   margin-left: 6vw;
-  background-color: white;
   margin-bottom: 6vw;
 }
 

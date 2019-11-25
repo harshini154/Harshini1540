@@ -1,0 +1,303 @@
+@font-face{
+  font-family: 'brandon_grotesque';
+  src: url('/Public/font/Brandon_med.otf');
+}
+a{
+text-decoration: none;
+}
+
+body{
+  margin: 0vw;
+  padding: 0vw;
+  background-color:#CABDE9;
+  font-family: 'brandon_grotesque';
+}
+text-decoration: none;
+.full{
+background-color: #CABDE9;
+}
+
+.mobilenav{
+display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #CABDE9;
+  height: 5vw;
+  padding-top: 1vw;
+}
+
+.topnav p
+{
+float: left;
+color: #f2f2f2;
+text-align: center;
+text-decoration: none;
+font-size: 17px;
+margin-left: 2vw;
+padding: 14px 25px;
+margin: auto;
+margin-left: 1vw;
+}
+
+.topnav .active {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 1vw;
+}
+
+.topnav .active2 {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .active3 {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .active:hover {
+  background-color: #f2f2f2;
+  color: #CABDE9;
+  
+}
+
+.topnav .active2:hover {
+  background-color: #f2f2f2;
+  color: #CABDE9;
+}
+
+.topnav .active3:hover {
+  background-color: #f2f2f2;
+  color: #CABDE9;
+}
+
+.topnav p:hover {
+  margin-left: 1vw;
+  
+}
+
+mobilenav{
+  display: none;
+}
+
+  .main {
+      grid: auto / 50% 50%;
+      display: grid;
+      height: 48.5vw;
+  }
+
+  .p1{
+      grid-area: 1/1;
+      background-color:#d4d4d4;
+  }
+
+  .p1 .image{
+      margin-top: 3.5vw;
+      height: 42vw;
+      width: 42.5vw;
+      margin-left: 3.5vw;
+      background-color: white;
+  }
+
+  .image img{
+      margin-top: 0vw;
+    width: 42.5vw;
+    height: 42.5vw;
+      
+  }
+
+  .t1{
+      grid-area: 1/2;
+      background-color: #f2f2f2;
+  }
+
+  .t1 .text{
+      margin-left: 3.5vw;
+      margin-top: 3.5vw;
+      width: 42.5vw;
+      grid-area: 1/2;
+  
+    height: 42vw;
+}
+
+.text h1{
+    font-size: 30px;
+    margin-bottom:0;
+    color: rgb(97, 97, 97);
+}
+
+.text p{
+    margin-top: 3vw;
+    color: rgb(129, 129, 129);
+    width: 38vw;
+}
+
+
+@media screen and (max-width: 640px){
+  body {
+  margin: 0vw;
+  padding: 0vw;
+  background-color:#CABDE9;
+  font-family: 'brandon_grotesque';
+}
+
+text-decoration: none;
+.full{
+  background-color: #CABDE9;
+}
+
+.topnav{
+  display: none;
+}
+
+/*.topnav {
+  overflow: hidden;
+  background-color: #CABDE9;
+  height: 5vw;
+  padding-top: 1vw;
+}*/
+
+.mobilenav{
+  width: 100vw;
+  background: #CABDE9;
+  display: grid;
+  grid: 20vw / 20% 60% 20%;
+  
+}
+
+.mobilenav .hamburger{
+  width: 20%;
+  height: 80%;
+  background: #CABDE9;
+  margin: auto;
+  margin-top: 5vw;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+a {
+color: #CABDE9;
+text-decoration: none;
+}
+
+ul li {display: inline-block;
+  font-size: 25px;}
+ul li:hover {background: #CABDE9;}
+ul li:hover ul {display: block;}
+ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  min-width: 92vw;
+  min-height: 162.5vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1
+}
+ul li ul li { 
+  background: #f2f2f2; 
+  display: block; 
+}
+ul li ul li a {
+  margin-top: 5vw;
+      display:block; 
+      color: #CABDE9;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  } 
+ul li ul li:hover {background: rgb(0, 129, 138);}
+
+.mobilenav .navspacemob{
+  width: 90%;
+  height: 100%;
+  background: #CABDE9;
+  margin: auto;
+}
+
+.mobilenav .hamburger img{
+  width: 160%;
+  height: 160%;
+  object-fit: cover;
+
+}
+
+
+
+.main {
+  grid: auto auto/ auto;
+  display: grid;
+  height: 48.5vw;
+}
+
+.p1{
+  grid-area: 1/1;
+  background-color:#d4d4d4;
+}
+
+.p1 .image{
+  margin-top: 6vw;
+  height: 88vw;
+  width: 88vw;
+  margin-left: 6vw;
+  background-color: white;
+  margin-bottom: 6vw;
+}
+
+/*.image img{
+  margin-top: 0vw;
+width: 42.5vw;
+height: 42.5vw;
+  
+}*/
+
+.image img{
+  margin-top: 0vw;
+width: 88vw;
+height: 88vw;
+  
+}
+
+.t1{
+  grid-area: 2/1;
+  height: 110vw;
+  background-color: #f2f2f2;
+}
+
+.t1 .text{
+  margin-left: 8vw;
+  margin-top: 6vw;
+  width: 80vw;
+  grid-area: 2/1;
+
+height: 42vw;
+}
+
+.text h1{
+font-size: 23px;
+margin-bottom:0;
+color: rgb(97, 97, 97);
+}
+
+.text p{
+margin-top: 1vw;
+color: rgb(129, 129, 129);
+width: 83vw;
+}
+

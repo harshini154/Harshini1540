@@ -1,0 +1,301 @@
+@font-face{
+  font-family: 'brandon_grotesque';
+  src: url('/Public/font/Brandon_med.otf');
+}
+a{
+text-decoration: none;
+}
+
+body{
+  margin: 0vw;
+  padding: 0vw;
+  background-color:#CABDE9;
+  font-family: 'brandon_grotesque';
+}
+text-decoration: none;
+.full{
+background-color: #CABDE9;
+}
+
+.mobilenav{
+display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #CABDE9;
+  height: 5vw;
+  padding-top: 1vw;
+}
+
+.topnav p
+{
+float: left;
+color: #f2f2f2;
+text-align: center;
+text-decoration: none;
+font-size: 17px;
+margin-left: 2vw;
+padding: 14px 25px;
+margin: auto;
+margin-left: 1vw;
+}
+
+.topnav .active {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 1vw;
+}
+
+.topnav .active2 {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .active3 {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .active:hover {
+  background-color: #f2f2f2;
+  color: #CABDE9;
+  
+}
+
+.topnav .active2:hover {
+  background-color: #f2f2f2;
+  color: #CABDE9;
+}
+
+.topnav .active3:hover {
+  background-color: #f2f2f2;
+  color: #CABDE9;
+}
+
+.topnav p:hover {
+  margin-left: 1vw;
+  
+}
+
+mobilenav{
+  display: none;
+}
+
+
+  .text{
+    height: 20vw;
+    width: 100vw;
+    margin-left: 10vw;
+}
+.text h3{
+    padding-top: 120px;
+  
+    color: #f2f2f2;
+}
+.text p{
+    font-size: 57px;
+    color: #f2f2f2;
+}
+
+.foot{
+    color: #f2f2f2;
+    margin-top: 13vw;
+    display: grid;
+    grid: auto / 50% 50%;
+    margin-left: 10vw;
+}
+
+.foot .email
+{
+    margin-left: 12vw;
+}
+
+.foot p
+{
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 640px){
+  body {
+  margin: 0vw;
+  padding: 0vw;
+  background-color:#CABDE9;
+  font-family: 'brandon_grotesque';
+}
+
+text-decoration: none;
+.full{
+  background-color: #CABDE9;
+}
+
+.topnav{
+  display: none;
+}
+
+/*.topnav {
+  overflow: hidden;
+  background-color: #CABDE9;
+  height: 5vw;
+  padding-top: 1vw;
+}*/
+
+.mobilenav{
+  width: 100vw;
+  background: #CABDE9;
+  display: grid;
+  grid: 20vw / 20% 60% 20%;
+  
+}
+
+.mobilenav .hamburger{
+  width: 20%;
+  height: 80%;
+  background: #CABDE9;
+  margin: auto;
+  margin-top: 5vw;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+a {
+color: #CABDE9;
+text-decoration: none;
+}
+
+ul li {display: inline-block;
+  font-size: 25px;}
+ul li:hover {background: #CABDE9;}
+ul li:hover ul {display: block;}
+ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  min-width: 92vw;
+  min-height: 162.5vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1
+}
+ul li ul li { 
+  background: #f2f2f2; 
+  display: block; 
+}
+ul li ul li a {
+  margin-top: 5vw;
+      display:block; 
+      color: #CABDE9;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  } 
+ul li ul li:hover {background: rgb(0, 129, 138);}
+
+.mobilenav .navspacemob{
+  width: 90%;
+  height: 100%;
+  background: #CABDE9;
+  margin: auto;
+}
+
+.mobilenav .hamburger img{
+  width: 160%;
+  height: 160%;
+  object-fit: cover;
+
+}
+
+.text h3{
+  padding-top: 0vw;
+  color: #f2f2f2;
+  margin-bottom: 0vw;
+}
+
+.text{
+  height: 60vw;
+  width: 80vw;
+  margin-left: 10vw;
+  line-height: 1.4;
+}
+
+.text p{
+  padding-top: 0vw;
+  font-size: 48px;
+  color: #f2f2f2;
+  margin-top: 5vw;
+}
+
+.foot{
+  color: #f2f2f2;
+  margin-top: 38vw;
+  display: grid;
+  grid: auto auto/ auto;
+  margin-left: 10vw;
+}
+
+.foot .email
+{
+  margin-left: 0vw;
+  
+}
+
+.foot .email h4
+{
+  font-size: 14px;
+  margin-left: 0vw;
+  margin-bottom: 1vw;
+  
+}
+
+.foot .email p
+{
+  font-size: 18px;
+  margin-left: 0vw;
+  margin-bottom: 0vw;
+  margin-top:0vw;
+  
+}
+
+.foot .phone
+{
+  margin-left: 0vw;
+  margin-bottom: 4vw;
+  
+}
+
+.foot .phone h4
+{
+  font-size: 14px;
+  margin-left: 0vw;
+  margin-bottom: 1vw;
+  
+}
+
+.foot .phone p
+{
+  font-size: 18px;
+  margin-left: 0vw;
+  margin-bottom: 0vw;
+  margin-top:0vw;
+  
+}
+
+.foot p
+{
+  
+}
